@@ -31,7 +31,6 @@
 .inputItem > input {
     border-radius: 10px;
     font-family: "Poppins";
-    max-width: 100%;
     font-size: 20px;
     padding: 5px;
     color: black;
@@ -78,6 +77,7 @@
     }
     .inputItem > input {
         font-size: 15px;
+        width: 60%;
     }
 
     .account {
