@@ -61,7 +61,7 @@ const Login = () => {
           <button className={styles.submitbtn} type="submit">Login</button>
         </form>
         <div className={styles.googlebtn}>
-          <GoogleButton type="dark" onClick={handleGoogleSignIn} />
+          <GoogleButton type="dark" onClick={handleGoogleSignIn} label="Google" />
         </div>
         <div className={styles.account}>
           <p>
