@@ -37,10 +37,10 @@
 }
 
 .submitbtn {
+    width: 100%;
     border-radius: 5px;
     border: 1px solid rgb(66, 53, 129);
     font-family: "Poppins";
-    max-width: 100%;
     font-size: 20px;
     padding: 5px 20px;
     background-color: #7100ff;
@@ -78,6 +78,10 @@
     .inputItem > input {
         font-size: 15px;
         width: 100%;
+    }
+
+    .submitbtn {
+        width: 50%;
     }
 
     .account {
